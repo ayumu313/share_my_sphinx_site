@@ -54,4 +54,5 @@ def nolink_role(name, rawtext, text, lineno, inliner, options={}, content=[]):
 
 roles.register_local_role('nolink', nolink_role)
 
+html_build_dir = 'docs'
 
